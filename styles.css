@@ -1,0 +1,36 @@
+.nav-link {
+    text-align: center;
+}
+
+.nav-link svg {
+    display: block;
+    margin: 0 auto;
+}
+
+#profession {
+    color: rgb(118, 192, 235);
+    font-style: italic;
+
+}
+
+.profession-fade {
+    animation: fade 4s infinite;
+}
+
+@keyframes fade {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
