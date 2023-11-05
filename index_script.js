@@ -13,7 +13,7 @@ document.getElementById('theme-toggler').addEventListener('click', function () {
 // Function to change the profession text
 function changeProfession() {
     const professionElement = document.getElementById("profession");
-    const professions = ["web developer", "coder", "problem solver"];
+    const professions = ["Web Developer","Problem Solver","Software Developer","Programmer"];
     let currentIndex = 0;
 
     // Function to update the profession text
